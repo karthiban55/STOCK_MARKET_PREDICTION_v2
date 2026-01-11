@@ -1,0 +1,49 @@
+/* src/components/TickerTape.css */
+.ticker-wrap {
+  width: 100%;
+  overflow: hidden;
+  background-color: #0d1117;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.75rem 0;
+}
+
+.ticker-move {
+  display: flex;
+  animation: ticker-scroll 40s linear infinite;
+  width: fit-content;
+}
+
+.ticker-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 2rem;
+  color: #e6edf3;
+  font-size: 0.9rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.ticker-symbol {
+  font-weight: 700;
+}
+
+.ticker-change {
+  font-weight: 700;
+}
+.ticker-change.positive {
+  color: #2ecc71; /* Green */
+}
+.ticker-change.negative {
+  color: #e74c60; /* Red */
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

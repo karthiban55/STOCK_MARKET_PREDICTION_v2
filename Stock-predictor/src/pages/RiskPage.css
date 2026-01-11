@@ -1,0 +1,37 @@
+/* src/pages/RiskPage.css */
+.risk-page .metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.metric-card {
+  background: rgba(22, 27, 34, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.metric-card .label {
+  font-size: 1rem;
+  color: #c9d1d9;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.metric-card .value {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.simulation-container {
+  background: rgba(22, 27, 34, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1.5rem;
+}

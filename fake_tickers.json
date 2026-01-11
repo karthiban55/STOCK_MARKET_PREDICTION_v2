@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "DUMMY",
+    "name": "Dummy Corp International"
+  },
+  {
+    "symbol": "FKSTK",
+    "name": "Fake Stock Industries"
+  },
+  {
+    "symbol": "XYZCO",
+    "name": "XYZ Company Ltd."
+  },
+  {
+    "symbol": "TEST",
+    "name": "TestCorp Holdings"
+  },
+  {
+    "symbol": "NULL",
+    "name": "Nullset Analytics"
+  }
+]

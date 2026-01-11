@@ -1,0 +1,32 @@
+/* src/components/DateRangeSelector.css */
+.range-selector {
+  display: flex;
+  gap: 0.5rem;
+  background-color: rgba(13, 17, 23, 0.8);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 1rem 0 2rem 0;
+  width: fit-content;
+}
+
+.range-selector button {
+  background-color: transparent;
+  border: none;
+  color: #c9d1d9;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.range-selector button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.range-selector button.active {
+  background-color: #58a6ff;
+  color: #0d1117;
+}

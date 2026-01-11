@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.env
+.env
+*.egg-info/
+dist/
+build/
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# Data files
+*.csv
+*.xlsx
+*.h5
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node.js (for Stock-predictor folder)
+Stock-predictor/node_modules/
+Stock-predictor/dist/
+Stock-predictor/.env

@@ -1,0 +1,38 @@
+/* src/components/SearchResults.css */
+.search-results {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+}
+.search-results li button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  text-align: left;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.search-results li:last-child button {
+  border-bottom: none;
+}
+.search-results li button:hover {
+  background-color: #f4f6f8;
+}
+.search-results .ticker {
+  font-weight: bold;
+  color: #2c3e50;
+  width: 100px;
+}
+.search-results .name {
+  color: #7f8c8d;
+  flex-grow: 1;
+}

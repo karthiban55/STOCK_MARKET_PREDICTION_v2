@@ -1,0 +1,30 @@
+/* src/components/PredictionCard.css */
+.prediction-card p {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: #3c4043;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.prediction-card p:last-child {
+  border-bottom: none;
+}
+
+.prediction-card span {
+  font-weight: 600;
+  color: #202124;
+}
+
+.prediction-card .positive {
+  color: #1e8e3e; /* Green */
+}
+
+.prediction-card .negative {
+  color: #d93025; /* Red */
+}
+
+.prediction-card .neutral {
+  color: #5f6368; /* Grey */
+}

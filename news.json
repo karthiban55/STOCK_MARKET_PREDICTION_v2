@@ -1,0 +1,4 @@
+﻿[
+  {"ticker":"AAPL","date":"2025-10-30T12:00:00Z","headline":"Apple launches new product","source":"DemoNews","sentiment":0.8,"url":"https://example.com/article1"},
+  {"ticker":"MSFT","date":"2025-10-30T09:00:00Z","headline":"Microsoft announces partnership","source":"DemoNews","sentiment":0.6,"url":"https://example.com/article2"}
+]

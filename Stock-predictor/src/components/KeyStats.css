@@ -1,0 +1,39 @@
+/* src/components/KeyStats.css */
+.key-stats-container {
+  border-top: 1px solid #e8eaed;
+  padding-top: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.stats-title {
+  font-size: 1.1rem;
+  color: #3c4043;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.key-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f1f3f4;
+}
+
+.stat-label {
+  /* --- FIX: Increased contrast for labels --- */
+  color: #5f6368; 
+  font-size: 0.9rem;
+}
+
+.stat-value {
+  /* --- FIX: Using a near-black color for high visibility --- */
+  color: #dcdfe8; 
+  font-weight: 500;
+  font-size: 0.9rem;
+}

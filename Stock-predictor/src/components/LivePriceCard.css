@@ -1,0 +1,22 @@
+/* src/components/LivePriceCard.css */
+.live-price-card {
+  padding: 1.5rem;
+  text-align: left;
+}
+.current-price {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1;
+}
+.price-change {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0.5rem 0 0 0;
+}
+.price-change.positive {
+  color: #2ecc71; /* Green */
+}
+.price-change.negative {
+  color: #e74c60; /* Red */
+}

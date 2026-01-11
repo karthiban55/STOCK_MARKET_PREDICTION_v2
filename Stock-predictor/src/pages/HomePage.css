@@ -1,0 +1,135 @@
+/* src/pages/HomePage.css */
+
+.home-page {
+  width: 100%;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  min-height: 80vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  flex: 1;
+  text-align: left;
+}
+
+.hero-content .subtitle {
+  font-weight: 600;
+  color: #58a6ff;
+  margin-bottom: 1rem;
+}
+
+.hero-content .title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+  background: -webkit-linear-gradient(45deg, #ffffff, #c9d1d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content .description {
+  font-size: 1.1rem;
+  color: #c9d1d9;
+  max-width: 500px;
+  margin-bottom: 2rem;
+}
+
+.hero-content .cta-button {
+  background-color: #58a6ff;
+  color: #0d1117;
+  border: none;
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-content .cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(88, 166, 255, 0.2);
+}
+
+.hero-graphic {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --- Animated Data Sphere --- */
+.sphere {
+  width: 350px;
+  height: 350px;
+  position: relative;
+}
+
+.sphere-inner {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, rgba(88, 166, 255, 0.4), transparent 70%);
+  position: relative;
+  animation: rotate-sphere 20s linear infinite;
+}
+
+.sphere-inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><circle cx="5" cy="5" r="1" fill="%23ffffff"/></svg>');
+  background-size: 20px 20px;
+  opacity: 0.3;
+}
+
+@keyframes rotate-sphere {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* --- Market Movers Section --- */
+.market-movers-section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.market-movers-section h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.top-stocks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-content {
+    text-align: center;
+  }
+  .hero-content .description {
+    margin: 0 auto 2rem auto;
+  }
+}

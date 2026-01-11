@@ -1,0 +1,60 @@
+/* src/components/Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* --- CHANGE THIS LINE --- */
+  background-color: #ffffff; /* Changed from #0d1117 to white */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Adjusted border for white background */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-logo {
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* --- CHANGE THIS LINE (for logo text color) --- */
+  color: #0d1117; /* Changed from #e6edf3 to dark */
+  text-decoration: none;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  /* --- CHANGE THIS LINE (for nav link text color) --- */
+  color: #555555; /* Changed from #c9d1d9 to a darker grey */
+  font-size: 1rem;
+  font-weight: 500;
+  padding-bottom: 0.5rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  /* --- CHANGE THIS LINE (for nav link hover text color) --- */
+  color: #0d1117; /* Changed from #ffffff to black */
+}
+
+/* Underline effect for the active link */
+.nav-menu a.active {
+  color: #58a6ff;
+  font-weight: 600;
+}
+
+.nav-menu a.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #58a6ff;
+}

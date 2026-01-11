@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "headline": "Market Hits All-Time High on Tech Speculation",
+    "source": "Demo News Network",
+    "timestamp": "2025-10-31T10:30:00Z",
+    "summary": "Analysts are stunned as the market, led by the tech sector, reached a new peak. Experts caution that this may be a bubble."
+  },
+  {
+    "id": 2,
+    "headline": "Dummy Corp (DUMMY) Announces 'Revolutionary' New Product",
+    "source": "Fake Financial Times",
+    "timestamp": "2025-10-31T09:15:00Z",
+    "summary": "Shares for Dummy Corp surged 15% in pre-market trading after they announced a new product that analysts say 'does nothing, but looks great.'"
+  },
+  {
+    "id": 3,
+    "headline": "Economic Outlook: Stable with Cautious Optimism",
+    "source": "Project Data Times",
+    "timestamp": "2025-10-30T17:45:00Z",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie."
+  }
+]

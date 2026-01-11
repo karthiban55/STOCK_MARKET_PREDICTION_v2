@@ -1,0 +1,43 @@
+/* src/components/TopStockCard.css */
+.stock-card {
+  background: rgba(22, 27, 34, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease-in-out;
+}
+.stock-card:hover {
+  transform: translateY(-5px);
+}
+.stock-info {
+  display: flex;
+  flex-direction: column;
+}
+.stock-ticker {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.stock-price {
+  font-size: 1rem;
+  color: #e6edf3;
+}
+.stock-change {
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+}
+.stock-change.positive {
+  background-color: rgba(35, 134, 54, 0.3);
+  color: #2ecc71; /* Green */
+}
+.stock-change.negative {
+  background-color: rgba(248, 81, 73, 0.3);
+  color: #e74c60; /* Red */
+}
